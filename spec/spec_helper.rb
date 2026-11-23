@@ -40,7 +40,8 @@ module BeefTestConfig
         'modules/browser/detect_vlc' => { datastore: { 'results' => 'vlc=Yes', 'vlc' => '', 'result' => '', 'cid' => '0', 'beefhook' => '1' } },
         'modules/browser/detect_office' => { datastore: { 'results' => 'office=Office 2016', 'result' => '', 'cid' => '0', 'beefhook' => '1' } },
         'modules/browser/detect_foxit' => { datastore: { 'results' => 'foxit=Yes', 'result' => '', 'cid' => '0', 'beefhook' => '1' } },
-        'modules/browser/detect_activex' => { datastore: { 'results' => 'activex=Yes', 'activex' => '', 'result' => '', 'cid' => '0', 'beefhook' => '1' } }
+        'modules/browser/detect_activex' => { datastore: { 'results' => 'activex=Yes', 'activex' => '', 'result' => '', 'cid' => '0', 'beefhook' => '1' } },
+        'modules/browser/get_browser_events' => { datastore: { 'event_count' => '2', 'event_types' => 'click:1,keys:1', 'logger_running' => 'true', 'result' => '', 'cid' => '0', 'beefhook' => '1' } }
       }
     when :exploits
       {

@@ -1,0 +1,15 @@
+#
+# Copyright (c) 2006-2026 Wade Alcorn - wade@bindshell.net
+# Browser Exploitation Framework (BeEF) - https://beefproject.com
+# See the file 'doc/COPYING' for copying permission
+#
+beef:
+    module:
+        get_browser_events:
+            enable: true
+            category: "Browser"
+            name: "Get Browser Events"
+            description: "Collect the user interaction events (clicks, key presses, focus changes, clipboard actions) captured by the BeEF event logger on the hooked browser and report a summary back to the framework."
+            authors: ["BeEF"]
+            target:
+                working: ["C", "FF", "S"]

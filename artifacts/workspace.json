@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid34544",
+  "B": "/home/dev/feedback/uid34544",
+  "sha": "1cbeadc68faec3eea048dc3ad04ec71d3338fe4d",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "beefproject",
+    "repo": "beef",
+    "sha": "1cbeadc68faec3eea048dc3ad04ec71d3338fe4d"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "beef",
+    "cloneUrl": "https://github.com/Rrr119/beef.git"
+  },
+  "at": "2026-11-23T00:54:29.433Z"
+}
